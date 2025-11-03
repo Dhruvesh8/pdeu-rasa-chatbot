@@ -1,0 +1,118 @@
+version: "3.1"
+
+stories:
+- story: greet and admission
+  steps:
+    - intent: initial_greet
+    - action: utter_initial_greet
+    - intent: greet
+    - action: utter_greet
+    - intent: admission_process
+    - action: utter_admission_process
+
+- story: contextual eligibility flow
+  steps:
+    - intent: eligibility
+    - action: utter_eligibility
+    - intent: fees
+    - action: utter_fees
+
+- story: detailed hostel inquiry
+  steps:
+    - intent: ask_more_info
+    - action: utter_ask_more_info
+
+- story: placement to courses flow
+  steps:
+    - intent: placement
+    - action: utter_placement
+    - intent: courses
+    - action: utter_courses
+
+- story: scholarship to fees flow
+  steps:
+    - intent: scholarship
+    - action: utter_scholarship
+    - intent: fees
+    - action: utter_fees
+
+- story: contact with context
+  steps:
+    - intent: contact
+    - action: utter_contact
+    - intent: ask_more_info
+    - action: utter_ask_more_info
+
+- story: courses to eligibility
+  steps:
+    - intent: courses
+    - action: utter_courses
+    - intent: eligibility
+    - action: utter_eligibility
+
+- story: ranking to admission flow
+  steps:
+    - intent: ranking
+    - action: utter_ranking
+    - intent: admission_process
+    - action: utter_admission_process
+
+- story: comprehensive FAQ
+  steps:
+    - intent: pdeu_faq
+    - action: action_pdeu_faq
+
+
+
+- story: multi-turn conversation
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admission_process
+    - action: utter_admission_process
+    - intent: eligibility
+    - action: utter_eligibility
+    - intent: fees
+    - action: utter_fees
+    - intent: scholarship
+    - action: utter_scholarship
+
+- story: facilities to hostel flow
+  steps:
+    - intent: facilities
+    - action: utter_facilities
+    - intent: hostel
+    - action: utter_hostel
+
+- story: academic to courses flow
+  steps:
+    - intent: academic
+    - action: utter_academic
+    - intent: courses
+    - action: utter_courses
+
+- story: safety to hostel flow
+  steps:
+    - intent: safety
+    - action: utter_safety
+    - intent: hostel
+    - action: utter_hostel
+
+- story: wellness to facilities flow
+  steps:
+    - intent: wellness
+    - action: utter_wellness
+    - intent: facilities
+    - action: utter_facilities
+
+- story: contextual response flow
+  steps:
+    - intent: fees
+    - action: utter_fees
+    - intent: affirm
+    - action: utter_scholarship
+
+- story: goodbye simple
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye

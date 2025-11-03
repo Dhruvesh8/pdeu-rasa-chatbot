@@ -1,0 +1,231 @@
+question,answer,category,intent
+How do I apply for PDEU admission?,You can apply online through the official PDEU portal at https://pdeu.ac.in/admissions. Fill the application form and upload required documents.,admission,admission_process
+What is the admission process for PDEU?,Complete online application → Document verification → Entrance exam/JEE score → Merit list → Counseling → Fee payment → Admission confirmation,admission,admission_process
+When does PDEU admission start?,PDEU admissions typically start in April-May each year. Check the official website for exact dates.,admission,admission_process
+What documents are required for admission?,10th & 12th mark sheets photocopies passport size photos JEE scorecard caste certificate (if applicable) income certificate (for scholarships),admission,admission_process
+Is there an entrance exam for PDEU?,PDEU accepts JEE Main scores. They also conduct their own entrance exam PDET for some programs.,admission,admission_process
+What is the eligibility criteria for B.Tech?,Passed 12th with Physics Chemistry Mathematics minimum 50% marks valid JEE Main score or PDET score,eligibility,eligibility
+Can I get admission without JEE?,Yes through PDET (PDEU Entrance Test) or management quota with good 12th percentage.,eligibility,eligibility
+What is the minimum percentage required?,Minimum 50% in 12th standard with PCM for general category. Relaxation for reserved categories.,eligibility,eligibility
+What is the fee structure for B.Tech?,Tuition fee: ₹2,25,000 per semester. Total annual fee including hostel: approximately ₹5,50,000,fees,fees
+Are there any scholarships available?,Merit-based scholarships up to 100% fee waiver need-based scholarships sports scholarships minority scholarships,fees,scholarship
+How much is the hostel fee?,Hostel fee ranges from ₹80,000 to ₹1,20,000 per year depending on room type and facilities.,fees,hostel
+What is included in hostel facilities?,AC/Non-AC rooms WiFi mess facility laundry 24x7 security medical facility recreational areas,hostel,hostel
+Is hostel mandatory for first year?,Hostel is not mandatory but highly recommended for outstation students for better campus experience.,hostel,hostel
+How are the placements at PDEU?,Excellent placement record with 85%+ placement rate. Average package: ₹6-8 LPA Highest: ₹50+ LPA,placement,placement
+Which companies visit for placements?,Top recruiters: TCS Infosys Wipro Reliance L&T Adani Microsoft Amazon Google Accenture,placement,placement
+What is the average salary package?,Average package ranges from ₹6-8 LPA. For CSE/IT: ₹8-12 LPA. For core branches: ₹5-7 LPA,placement,placement
+How can I contact PDEU admissions?,Email: admissions@pdeu.ac.in Phone: +91-79-23275060 Address: Raisan Gandhinagar Gujarat 382007,contact,contact
+What courses are offered at PDEU?,B.Tech: CSE IT ECE Mechanical Civil Chemical Petroleum. Other: MBA MCA M.Tech PhD programs,courses,courses
+What is PDEU ranking?,NAAC A++ accredited. Ranked among top 100 engineering colleges in India. QS ranking in 801-1000 band.,ranking,ranking
+Is PDEU a good university?,Yes PDEU is highly reputed with excellent faculty infrastructure industry connections and placement record.,ranking,ranking
+What is the campus size?,PDEU has a sprawling 315-acre green campus with state-of-the-art facilities and modern infrastructure.,general,general
+Where is PDEU located?,PDEU is located in Raisan village near Gandhinagar Gujarat about 23 km from Ahmedabad.,general,contact
+What is the student strength?,PDEU has approximately 8000+ students across all programs with a healthy student-faculty ratio.,general,general
+Are there sports facilities?,Yes PDEU has excellent sports facilities including cricket ground basketball volleyball tennis badminton swimming pool gym.,facilities,general
+What about library facilities?,Central library with 1,00,000+ books digital resources 24x7 access e-journals and research databases.,facilities,general
+Is there medical facility on campus?,Yes 24x7 medical center with qualified doctors and ambulance facility available on campus.,facilities,general
+What is the dress code?,Smart casual dress code. No specific uniform but decent formal/semi-formal attire expected.,general,general
+Are laptops mandatory?,Yes personal laptop is mandatory for all engineering students. Minimum configuration requirements are specified.,general,general
+What is the attendance requirement?,Minimum 75% attendance is mandatory for appearing in semester exams as per university norms.,academic,general
+How many semesters in B.Tech?,B.Tech is a 4-year program with 8 semesters. Each semester is approximately 6 months duration.,academic,general
+What is the grading system?,PDEU follows 10-point CGPA system. Grade A+ = 10 A = 9 B+ = 8 and so on.,academic,general
+Are there internship opportunities?,Yes mandatory internships in 6th/7th semester. Industry tie-ups provide excellent internship opportunities.,academic,placement
+What about research opportunities?,PDEU encourages research with well-equipped labs funded projects and opportunities to publish papers.,academic,general
+Is there a coding culture?,Strong coding culture with programming clubs hackathons coding competitions and tech fests regularly organized.,academic,courses
+What programming languages are taught?,C C++ Java Python JavaScript HTML CSS SQL MATLAB and other domain-specific languages.,academic,courses
+Are there technical clubs?,Yes multiple technical clubs: Robotics AI/ML Cybersecurity Web Development Mobile App Development clubs active.,clubs,general
+What cultural activities are available?,Annual cultural fest Petrichor various cultural clubs dance music drama literary activities throughout the year.,clubs,general
+Is ragging allowed?,Absolutely no ragging. PDEU has strict anti-ragging policies and zero tolerance towards any form of ragging.,safety,general
+What about campus security?,24x7 security with CCTV surveillance trained guards and secure entry/exit points ensure campus safety.,safety,general
+Are girls safe on campus?,Yes completely safe environment for girls with separate hostels security measures and women safety committee.,safety,general
+What is the faculty qualification?,Highly qualified faculty with PhD from IITs/NITs/foreign universities and significant industry experience.,academic,general
+What is student-faculty ratio?,Excellent student-faculty ratio of approximately 15:1 ensuring personalized attention and quality education.,academic,general
+Are faculty approachable?,Yes faculty are very approachable helpful and maintain good relationships with students for academic guidance.,academic,general
+What about guest lectures?,Regular guest lectures by industry experts alumni and renowned academicians to enhance learning experience.,academic,general
+Are there international collaborations?,Yes PDEU has collaborations with foreign universities for student exchange programs and joint research.,international,general
+Can I go for foreign exchange?,Yes opportunities for semester exchange programs with partner universities in USA Europe and other countries.,international,general
+What about foreign internships?,International internship opportunities available through university partnerships and individual applications.,international,placement
+Is there placement assistance for abroad?,Yes dedicated international placement cell helps students with overseas job opportunities and higher studies.,international,placement
+What is the alumni network?,Strong alumni network working in top companies worldwide providing mentorship and job referrals.,alumni,placement
+Do alumni help in placements?,Yes active alumni involvement in campus placements mentoring and providing industry insights to students.,alumni,placement
+Are there alumni meets?,Regular alumni meets homecoming events and networking sessions organized to maintain alumni connections.,alumni,general
+What about entrepreneurship support?,PDEU has incubation center startup support mentorship programs and funding assistance for student entrepreneurs.,entrepreneurship,general
+Are there startup competitions?,Yes regular startup competitions business plan contests and entrepreneurship events to encourage innovation.,entrepreneurship,general
+What is the innovation culture?,Strong innovation culture with research projects patents filed and students encouraged to develop new solutions.,innovation,general
+Are there research publications?,Yes students and faculty regularly publish research papers in reputed journals and conferences.,research,general
+What about project work?,Extensive project work in all semesters with industry-relevant projects and real-world problem solving.,academic,general
+Is there industry exposure?,Regular industry visits guest lectures internships and live projects provide excellent industry exposure.,industry,placement
+What companies are nearby?,Gujarat is an industrial hub with many companies in Ahmedabad Vadodara and nearby industrial areas.,industry,placement
+Are there part-time job opportunities?,Limited part-time opportunities on campus. Focus is on academics but some research assistantships available.,jobs,general
+What about weekend activities?,Various weekend activities including sports tournaments cultural events technical workshops and outings organized.,activities,general
+Is there a canteen facility?,Multiple canteens and food courts with variety of cuisines hygienic food and reasonable prices.,facilities,general
+What about transportation?,University buses connect to major areas in Ahmedabad. Auto-rickshaws and cabs also available.,transport,general
+Is parking available?,Ample parking space available for both two-wheelers and four-wheelers with proper security arrangements.,facilities,general
+What about internet facility?,High-speed WiFi available throughout campus with good connectivity in hostels and academic buildings.,facilities,general
+Are there ATMs on campus?,Yes ATMs of major banks available on campus for student convenience.,facilities,general
+What about shopping facilities?,Basic shopping needs can be met on campus. Major shopping areas accessible in nearby Gandhinagar and Ahmedabad.,facilities,general
+Is there a post office?,Yes post office facility available on campus for postal services and courier facilities.,facilities,general
+What about laundry services?,Laundry services available in hostels both self-service and professional laundry options.,hostel,hostel
+Are there common rooms?,Yes common rooms in hostels with TV indoor games and recreational facilities for student interaction.,hostel,hostel
+What is the hostel timing?,Hostel gates close at 10 PM on weekdays and 11 PM on weekends. Late entry requires permission.,hostel,hostel
+Can parents visit hostels?,Yes parents can visit hostels during specified visiting hours with proper permission and registration.,hostel,hostel
+What about hostel mess?,Hygienic mess facility with variety of vegetarian and non-vegetarian food options and flexible meal plans.,hostel,hostel
+Are there single rooms available?,Yes single rooms available in premium hostels at higher cost. Most rooms are shared (2-3 students).,hostel,hostel
+What is the room allotment process?,Room allotment based on merit academic performance and availability. Preferences considered where possible.,hostel,hostel
+Can I change my room?,Room changes possible in subsequent semesters based on availability and valid reasons with proper approval.,hostel,hostel
+What about hostel discipline?,Strict discipline maintained in hostels with rules for timings visitors and conduct to ensure peaceful environment.,hostel,hostel
+Are there study areas in hostels?,Yes dedicated study areas and reading rooms available in hostels for academic activities.,hostel,hostel
+What about hostel maintenance?,Regular maintenance and housekeeping services ensure clean and comfortable living conditions in hostels.,hostel,hostel
+Is there backup power in hostels?,Yes backup power supply ensures uninterrupted electricity in hostels during power cuts.,hostel,hostel
+What recreational facilities in hostels?,Indoor games TV rooms music rooms and common areas for recreation and social interaction.,hostel,hostel
+Are there separate hostels for girls?,Yes separate well-secured hostels for girls with additional safety measures and female wardens.,hostel,hostel
+What about hostel security?,24x7 security guards CCTV surveillance and controlled access ensure complete safety in hostels.,hostel,hostel
+Can day scholars use hostel facilities?,Limited access to hostel facilities for day scholars. Mess facility can be availed with proper registration.,hostel,hostel
+What is the refund policy for hostel?,Hostel fee refund as per university policy. Partial refund possible in case of early withdrawal with valid reasons.,hostel,fees
+Are there any hidden charges in hostel?,No hidden charges. All fees clearly mentioned in fee structure including electricity water and maintenance charges.,hostel,fees
+What about festival celebrations?,All major festivals celebrated on campus with enthusiasm. Cultural diversity respected and celebrated.,culture,general
+Are there religious facilities?,Multi-faith prayer rooms available for students of all religions to practice their faith.,culture,general
+What about food preferences?,Both vegetarian and non-vegetarian food options available. Special arrangements for regional cuisines.,culture,general
+Is there a student council?,Yes active student council represents student interests and organizes various academic and cultural activities.,governance,general
+What about grievance redressal?,Proper grievance redressal mechanism with student welfare committee to address student concerns promptly.,governance,general
+Are there student committees?,Various student committees for academics cultural activities sports technical events and social service activities.,governance,general
+What about anti-discrimination policies?,Strict anti-discrimination policies ensure equal treatment regardless of caste religion gender or background.,policies,general
+Is there a counseling service?,Yes professional counseling services available for academic career and personal guidance of students.,support,general
+What about career guidance?,Dedicated career guidance cell provides counseling for higher studies job opportunities and career planning.,support,placement
+Are there skill development programs?,Regular skill development workshops soft skills training and personality development programs organized.,development,general
+What about language support?,English communication skills development programs and support for students from vernacular medium backgrounds.,development,general
+Is there academic support for weak students?,Yes remedial classes extra tutorials and peer mentoring programs help academically weak students.,support,academic
+What about scholarship application process?,Scholarship applications processed through online portal with document verification and merit-based selection.,scholarship,fees
+Are there government scholarships?,Yes students can avail various government scholarships like post-matric minority scholarships etc.,scholarship,fees
+What about education loans?,University provides assistance in education loan processing with tie-ups with various banks.,loans,fees
+Is there an EMI facility for fees?,Yes fee payment in installments possible with proper documentation and approval from accounts department.,fees,fees
+What about fee concessions?,Fee concessions available for economically weaker sections and meritorious students as per university policy.,fees,fees
+Are there any additional charges?,Additional charges for lab fees library caution deposit exam fees and other miscellaneous charges as applicable.,fees,fees
+What is the fee payment process?,Online fee payment through university portal. DD and cash payments also accepted at accounts office.,fees,fees
+Is there a fee receipt system?,Yes proper fee receipts issued for all payments with online tracking facility available.,fees,fees
+What about late fee penalties?,Late fee penalties applicable as per university rules. Grace period provided in exceptional circumstances.,fees,fees
+Can I get fee structure in advance?,Yes detailed fee structure available on university website and admission brochure for all programs.,fees,fees
+What about semester-wise fee payment?,Fee payment semester-wise. Complete fee structure for entire program provided at time of admission.,fees,fees
+Are there any fee waivers?,Fee waivers available for toppers economically disadvantaged students and those with exceptional achievements.,fees,scholarship
+What about the examination system?,Semester-based examination system with continuous assessment mid-term and end-term examinations.,academic,general
+How are grades calculated?,Grades based on continuous assessment (30%) mid-term (20%) and end-term (50%) examination performance.,academic,general
+What is the passing criteria?,Minimum 40% marks required to pass each subject. Overall CGPA of 5.0 required for degree completion.,academic,general
+Are there supplementary exams?,Yes supplementary exams conducted for failed subjects as per university academic calendar.,academic,general
+What about project evaluation?,Projects evaluated by internal and external examiners with presentation and viva-voce examination.,academic,general
+Is there a thesis requirement?,Final year project/thesis mandatory for all programs with industry relevance and research component.,academic,general
+What about industrial training?,Mandatory industrial training in summer breaks with evaluation and credit points assigned.,academic,placement
+Are there exchange programs with other universities?,Yes student exchange programs with reputed universities for academic and cultural exposure.,academic,international
+What about dual degree programs?,Dual degree options available in collaboration with foreign universities for eligible students.,academic,international
+Is there a credit transfer system?,Yes credit transfer possible for students participating in exchange programs or transferring from other institutions.,academic,general
+What about online learning platforms?,Access to various online learning platforms and MOOCs for additional skill development and learning.,academic,general
+Are there certification courses?,Yes various certification courses in emerging technologies offered in collaboration with industry partners.,academic,courses
+What about placement preparation?,Dedicated placement preparation including aptitude training interview skills and personality development programs.,placement,placement
+When do placements start?,Campus placements typically start in 7th semester and continue through 8th semester for final year students.,placement,placement
+What is the placement process?,Pre-placement talks written tests group discussions technical interviews HR interviews and final selection.,placement,placement
+Are there off-campus placement opportunities?,Yes students encouraged to apply for off-campus opportunities with placement cell providing necessary support.,placement,placement
+What about higher studies guidance?,Comprehensive guidance for higher studies including GRE GMAT TOEFL preparation and university applications.,higher_studies,general
+Are there research opportunities after graduation?,Yes research opportunities in university labs and collaborations with industry for M.Tech and PhD programs.,higher_studies,research
+What about foreign university admissions?,Guidance and support provided for admissions to foreign universities for MS and PhD programs.,higher_studies,international
+Is there an alumni mentorship program?,Yes structured alumni mentorship program connecting current students with successful alumni for career guidance.,mentorship,alumni
+What about industry mentorship?,Industry mentorship programs with professionals providing real-world insights and career guidance.,mentorship,industry
+Are there leadership development programs?,Yes various leadership development programs workshops and opportunities to develop leadership skills.,development,general
+What about public speaking training?,Regular workshops and competitions for improving communication and public speaking skills.,development,general
+Is there a debate society?,Active debate society organizing regular debates discussions and participation in inter-college competitions.,clubs,general
+What about literary activities?,Literary club organizes poetry writing competitions book discussions and creative writing workshops.,clubs,general
+Are there technical symposiums?,Annual technical symposium with paper presentations project exhibitions and competitions from various colleges.,events,general
+What about cultural festivals?,Grand annual cultural festival with celebrity performances competitions and participation from multiple colleges.,events,general
+Is there a sports festival?,Annual sports festival with inter-college competitions in various indoor and outdoor sports.,events,general
+What about hackathons?,Regular hackathons coding competitions and technical challenges organized by various technical clubs.,events,courses
+Are there robotics competitions?,Robotics club organizes competitions workshops and participates in national level robotics competitions.,clubs,courses
+What about AI/ML workshops?,Regular workshops seminars and hands-on sessions on artificial intelligence and machine learning.,workshops,courses
+Is there cybersecurity training?,Cybersecurity club provides training workshops and awareness programs on information security.,workshops,courses
+What about web development training?,Web development workshops covering latest technologies frameworks and hands-on project development.,workshops,courses
+Are there mobile app development courses?,Mobile app development training for Android and iOS platforms with practical project implementation.,workshops,courses
+What about data science programs?,Data science workshops covering analytics machine learning and big data technologies.,workshops,courses
+Is there blockchain technology training?,Emerging technology workshops including blockchain cryptocurrency and distributed systems.,workshops,courses
+What about cloud computing courses?,Cloud computing training with hands-on experience on AWS Azure and Google Cloud platforms.,workshops,courses
+Are there IoT workshops?,Internet of Things workshops with practical implementation of IoT projects and applications.,workshops,courses
+What about digital marketing training?,Digital marketing workshops covering SEO social media marketing and online business strategies.,workshops,general
+Is there financial literacy training?,Financial literacy programs covering investment planning taxation and personal finance management.,workshops,general
+What about personality development?,Comprehensive personality development programs including grooming etiquette and soft skills training.,development,general
+Are there time management workshops?,Time management and productivity workshops to help students balance academics and other activities.,development,general
+What about stress management programs?,Stress management and mental health awareness programs with professional counselors and psychologists.,support,general
+Is there yoga and meditation?,Regular yoga and meditation sessions for physical and mental well-being of students.,wellness,general
+What about fitness facilities?,Well-equipped gymnasium with modern equipment and professional trainers for student fitness.,wellness,general
+Are there health checkup camps?,Regular health checkup camps with qualified doctors for preventive healthcare of students.,wellness,general
+What about nutritional guidance?,Nutritional counseling and guidance for healthy eating habits and lifestyle management.,wellness,general
+Is there a swimming pool?,Olympic-size swimming pool with trained lifeguards and swimming coaching available.,facilities,general
+What about outdoor sports facilities?,Extensive outdoor sports facilities including cricket football basketball volleyball and tennis courts.,facilities,general
+Are there indoor sports facilities?,Indoor sports complex with badminton table tennis chess carrom and other indoor games.,facilities,general
+What about adventure sports?,Adventure sports club organizes trekking camping rock climbing and other outdoor adventure activities.,clubs,general
+Is there a photography club?,Active photography club organizing workshops exhibitions and photography competitions.,clubs,general
+What about music and dance?,Music and dance clubs with regular practice sessions performances and participation in competitions.,clubs,general
+Are there drama and theater activities?,Drama club organizes plays street plays and theater workshops with regular performances.,clubs,general
+What about social service activities?,NSS and other social service clubs engage in community service and social awareness programs.,service,general
+Is there environmental awareness?,Environmental club promotes sustainability green initiatives and environmental awareness campaigns.,service,general
+What about blood donation camps?,Regular blood donation camps organized in collaboration with local hospitals and blood banks.,service,general
+Are there disaster relief activities?,Student volunteers participate in disaster relief activities and community service during emergencies.,service,general
+What about skill competitions?,Various skill competitions including technical non-technical and creative competitions throughout the year.,competitions,general
+Is there an annual magazine?,Annual college magazine featuring student articles achievements and creative contributions.,publications,general
+What about newsletters?,Regular newsletters and publications highlighting college events achievements and student activities.,publications,general
+Are there research journals?,Student research journal for publishing undergraduate research papers and innovative projects.,publications,research
+What about patent filing support?,Support and guidance provided for patent filing for innovative student projects and research work.,research,general
+Is there technology transfer support?,Technology transfer cell helps in commercializing student innovations and research outcomes.,research,entrepreneurship
+What about startup incubation?,Dedicated startup incubation center with mentorship funding support and infrastructure for student startups.,entrepreneurship,general
+Are there investor connect programs?,Regular investor connect sessions and pitch competitions for student entrepreneurs.,entrepreneurship,general
+What about business plan competitions?,Annual business plan competitions with cash prizes and incubation opportunities for winners.,entrepreneurship,general
+Is there market research support?,Market research and feasibility study support provided for student business ideas and projects.,entrepreneurship,general
+What about legal support for startups?,Legal guidance and support provided for startup registration intellectual property and compliance.,entrepreneurship,general
+Are there industry partnerships?,Strong industry partnerships providing internships projects placements and research collaborations.,industry,general
+What about corporate social responsibility?,CSR initiatives in collaboration with corporate partners for community development and social impact.,service,general
+Is there a technology park?,Technology park on campus housing various companies and providing industry exposure to students.,industry,general
+What about research collaborations?,Research collaborations with national and international institutions for advanced research projects.,research,general
+Are there government project collaborations?,Collaborations with government agencies for research projects and policy development initiatives.,research,general
+What about international conferences?,Regular international conferences and seminars organized by various departments and research centers.,events,research
+Is there publication support?,Support for publishing research papers in reputed journals and presenting at international conferences.,research,general
+What about research funding?,Research funding opportunities through various government and private agencies for student and faculty research.,research,general
+Are there innovation challenges?,Innovation challenges and competitions encouraging students to develop solutions for real-world problems.,innovation,general
+What about design thinking workshops?,Design thinking workshops and methodology training for creative problem-solving and innovation.,workshops,general
+Is there prototyping support?,Prototyping labs and fabrication facilities for developing and testing innovative ideas and projects.,innovation,general
+What about 3D printing facilities?,Advanced 3D printing and rapid prototyping facilities available for student projects and research.,facilities,general
+Are there maker spaces?,Maker spaces equipped with tools and equipment for hands-on learning and project development.,facilities,general
+What about virtual reality labs?,VR/AR labs with latest technology for immersive learning and project development.,facilities,courses
+Is there artificial intelligence lab?,Dedicated AI lab with high-performance computing resources for machine learning and AI projects.,facilities,courses
+What about robotics lab?,Advanced robotics lab with various robots sensors and automation equipment for practical learning.,facilities,courses
+Are there simulation software available?,Latest simulation software and tools available for engineering design analysis and modeling.,software,courses
+What about programming environments?,Comprehensive programming environments and development tools for software development projects.,software,courses
+Is there access to research databases?,Access to premium research databases journals and digital libraries for academic and research purposes.,resources,research
+What about online learning resources?,Extensive online learning resources including video lectures tutorials and interactive learning modules.,resources,general
+Are there digital libraries?,Digital library with vast collection of e-books journals and multimedia resources accessible 24x7.,resources,general
+What about computer labs?,State-of-the-art computer labs with latest hardware software and high-speed internet connectivity.,facilities,courses
+Is there network infrastructure?,Robust network infrastructure with high-speed internet WiFi coverage and network security measures.,infrastructure,general
+What about power backup?,Uninterrupted power supply with generators and UPS systems ensuring continuous operations.,infrastructure,general
+Are there green initiatives?,Comprehensive green initiatives including solar power rainwater harvesting and waste management systems.,sustainability,general
+What about waste management?,Effective waste management system with segregation recycling and eco-friendly disposal methods.,sustainability,general
+Is there water conservation?,Water conservation measures including rainwater harvesting water recycling and efficient usage systems.,sustainability,general
+What about carbon footprint reduction?,Various initiatives for reducing carbon footprint including renewable energy and sustainable practices.,sustainability,general
+Are there electric vehicle charging stations?,Electric vehicle charging stations available on campus promoting sustainable transportation.,sustainability,general
+What about organic farming?,Organic farming initiatives on campus for fresh produce and environmental education.,sustainability,general
+Is there a botanical garden?,Beautiful botanical garden with diverse flora providing a green and serene campus environment.,facilities,general
+What about landscaping?,Excellent landscaping with well-maintained gardens lawns and green spaces throughout the campus.,facilities,general
+Are there water bodies on campus?,Artificial lakes and water features enhancing the aesthetic appeal and microclimate of the campus.,facilities,general
+What about campus maintenance?,Professional campus maintenance ensuring clean well-maintained and aesthetically pleasing environment.,maintenance,general
+Is there pest control?,Regular pest control measures ensuring hygienic and safe campus environment.,maintenance,general
+What about housekeeping services?,Professional housekeeping services maintaining cleanliness in all academic and residential areas.,maintenance,general
+Are there complaint redressal systems?,Efficient complaint redressal system for maintenance infrastructure and service-related issues.,maintenance,general
+What about emergency services?,24x7 emergency services including medical fire safety and security response systems.,safety,general
+Is there disaster preparedness?,Comprehensive disaster preparedness with evacuation plans safety drills and emergency equipment.,safety,general
+What about fire safety measures?,Advanced fire safety systems with smoke detectors sprinklers fire extinguishers and trained personnel.,safety,general
+Are there first aid facilities?,First aid facilities and trained personnel available in all major buildings and hostels.,safety,general
+What about ambulance services?,24x7 ambulance service available for medical emergencies with tie-ups with nearby hospitals.,safety,general
+Is there insurance coverage?,Comprehensive insurance coverage for students including medical and accident insurance.,insurance,general
+What about health insurance?,Health insurance coverage provided to all students with cashless treatment facilities.,insurance,general
+Are there tie-ups with hospitals?,Tie-ups with reputed hospitals for medical treatment and emergency services for students.,medical,general
+What about specialist doctors?,Regular visits by specialist doctors and health checkups for preventive healthcare.,medical,general
+Is there a pharmacy on campus?,Pharmacy facility available on campus for basic medicines and healthcare products.,medical,general
+What about mental health support?,Professional mental health support and counseling services for student well-being.,support,general
+Are there support groups?,Various support groups for academic personal and social issues providing peer support.,support,general
+What about career counseling?,Professional career counseling services helping students make informed career decisions.,counseling,placement
+Is there academic counseling?,Academic counseling for course selection career planning and academic performance improvement.,counseling,academic
+What about personal counseling?,Personal counseling services for emotional social and psychological support of students.,counseling,support

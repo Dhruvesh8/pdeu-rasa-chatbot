@@ -1,0 +1,279 @@
+version: "3.1"
+
+intents:
+  - initial_greet
+  - greet
+  - goodbye
+  - admission_process
+  - eligibility
+  - fees
+  - payment_plans
+  - hostel
+  - placement
+  - scholarship
+  - contact
+  - courses
+  - ranking
+  - pdeu_faq
+  - affirm
+  - deny
+  - fallback
+  - ask_more_info
+  - general
+  - facilities
+  - academic
+  - clubs
+  - safety
+  - wellness
+
+entities:
+  - course_type
+  - fee_type
+  - facility_type
+  - program_level
+
+slots:
+  user_interest:
+    type: categorical
+    values:
+      - admission
+      - fees
+      - hostel
+      - placement
+      - courses
+      - general
+    mappings:
+    - type: from_intent
+      intent: admission_process
+      value: admission
+    - type: from_intent
+      intent: fees
+      value: fees
+    - type: from_intent
+      intent: hostel
+      value: hostel
+    - type: from_intent
+      intent: placement
+      value: placement
+    - type: from_intent
+      intent: courses
+      value: courses
+  
+  last_intent:
+    type: text
+    mappings:
+    - type: from_intent
+      intent: admission_process
+      value: admission_process
+    - type: from_intent
+      intent: fees
+      value: fees
+    - type: from_intent
+      intent: hostel
+      value: hostel
+  
+  conversation_stage:
+    type: categorical
+    values:
+      - greeting
+      - inquiry
+      - details
+      - followup
+    mappings:
+    - type: from_intent
+      intent: greet
+      value: greeting
+  
+  course_type:
+    type: text
+    mappings:
+    - type: from_text
+  
+  program_level:
+    type: text
+    mappings:
+    - type: from_text
+  
+  fee_type:
+    type: text
+    mappings:
+    - type: from_text
+
+
+
+responses:
+  utter_initial_greet:
+    - text: "Hello! Welcome to PDEU CampusGuide. I'm here to assist you with your admission queries."
+  
+  utter_greet:
+    - text: "Hey there! 👋 I'm CampusGuide — your PDEU Admission Assistant. How can I help you today?"
+      buttons:
+        - title: "📝 Admission Process"
+          payload: "/admission_process"
+        - title: "🎓 Eligibility"
+          payload: "/eligibility"
+        - title: "💰 Fees & Scholarships"
+          payload: "/fees"
+        - title: "🏠 Hostel Facilities"
+          payload: "/hostel"
+        - title: "💼 Placements"
+          payload: "/placement"
+        - title: "📚 Courses"
+          payload: "/courses"
+        - title: "📞 Contact Info"
+          payload: "/contact"
+        - title: "🏆 University Ranking"
+          payload: "/ranking"
+  
+  utter_ask_more_info:
+    - text: "Would you like to know more about any specific aspect?"
+      buttons:
+        - title: "📋 More Details"
+          payload: "/ask_more_info"
+        - title: "📞 Contact Info"
+          payload: "/contact"
+        - title: "🏠 Hostel Info"
+          payload: "/hostel"
+  
+  utter_ask_course_type:
+    - text: "Which course are you interested in?"
+      buttons:
+        - title: "B.Tech"
+          payload: "B.Tech"
+        - title: "MBA"
+          payload: "MBA"
+        - title: "M.Tech"
+          payload: "M.Tech"
+  
+  utter_ask_program_level:
+    - text: "Which program level?"
+      buttons:
+        - title: "Undergraduate"
+          payload: "UG"
+        - title: "Postgraduate"
+          payload: "PG"
+  
+  utter_ask_fee_type:
+    - text: "What type of fee information do you need?"
+      buttons:
+        - title: "Tuition Fees"
+          payload: "tuition"
+        - title: "Hostel Fees"
+          payload: "hostel"
+        - title: "Total Fees"
+          payload: "total"
+
+  utter_goodbye:
+    - text: "Goodbye! Wish you all the best for your PDEU journey 😊"
+
+  utter_default:
+    - text: "I'd be happy to help! Here are some popular topics:"
+      buttons:
+        - title: "📝 Admission Process"
+          payload: "/admission_process"
+        - title: "💰 Fees & Scholarships"
+          payload: "/fees"
+        - title: "🏠 Hostel Facilities"
+          payload: "/hostel"
+        - title: "💼 Placements"
+          payload: "/placement"
+        - title: "🎓 Eligibility"
+          payload: "/eligibility"
+        - title: "📞 Contact Info"
+          payload: "/contact"
+
+  utter_admission_process:
+    - text: "**PDEU Admission Process 2024-25**\n\n**Step-by-Step Process:**\n1. **Online Application**: Visit https://pdeu.ac.in/admissions\n2. **Document Upload**: 12th marksheet, JEE scores\n3. **Application Fee**: ₹1,200 (online payment)\n4. **Merit List**: Based on JEE/PDEU entrance\n5. **Counseling**: Online/Offline as per rank\n6. **Seat Confirmation**: Fee payment within deadline\n\n**Important Dates:**\n• Application Start: March 2024\n• Last Date: June 2024\n• Counseling: July 2024\n• Classes Begin: August 2024\n\n**Required Documents:**\n• 12th Certificate & Marksheet\n• JEE Main Scorecard\n• Category Certificate (if applicable)\n• Passport size photos"
+      buttons:
+        - title: "🎓 Eligibility Criteria"
+          payload: "/eligibility"
+        - title: "💰 Fee Structure"
+          payload: "/fees"
+        - title: "📞 Admission Helpline"
+          payload: "/contact"
+
+  utter_eligibility:
+    - text: "**PDEU Eligibility Criteria**\n\n**B.Tech Programs:**\n• 12th with Physics, Chemistry, Mathematics\n• Minimum 50% marks (45% for reserved)\n• Valid JEE Main score OR PDEU entrance\n\n**Entrance Exams Accepted:**\n• JEE Main (preferred)\n• PDEU Entrance Test\n• GUJCET (for Gujarat students)\n\n**Age Limit:**\n• Maximum 25 years (30 for reserved)\n\n**Special Quotas:**\n• Management Quota: 15%\n• NRI Quota: 5%\n• Sports Quota: 3%"
+
+  utter_fees:
+    - text: "**PDEU Fee Structure 2024-25**\n\n**B.Tech Programs:**\n• Tuition Fee: ₹2,25,000 per semester\n• Development Fee: ₹25,000 per year\n• Total Academic Fee: ₹4,75,000 per year\n\n**Additional Costs:**\n• Hostel Fee: ₹60,000-80,000 per year\n• Mess Fee: ₹45,000 per year\n• Total Annual Cost: ₹5,50,000-6,00,000\n\n**Payment Options:**\n• Semester-wise payment\n• Annual payment (5% discount)\n• EMI options available"
+      buttons:
+        - title: "🎓 Scholarships Available"
+          payload: "/scholarship"
+        - title: "🏠 Hostel Fees Details"
+          payload: "/hostel"
+        - title: "💳 Payment Plans"
+          payload: "/payment_plans"
+
+  utter_hostel:
+    - text: "**PDEU Hostel Facilities**\n\n**Room Types & Fees:**\n• Non-AC Single: ₹60,000/year\n• AC Single: ₹80,000/year\n• Non-AC Double: ₹45,000/year\n• AC Double: ₹65,000/year\n\n**Facilities Included:**\n• 24x7 WiFi & Power backup\n• Laundry & Housekeeping\n• Common room with TV\n• Gym & Sports facilities\n• 24x7 Security with CCTV\n\n**Mess Facilities:**\n• Vegetarian & Non-veg options\n• Monthly mess fee: ₹3,500-4,000\n• Hygienic kitchen with quality food"
+      buttons:
+        - title: "💰 Hostel Fee Breakdown"
+          payload: "/fees"
+        - title: "🛡️ Safety & Security"
+          payload: "/facilities"
+        - title: "📝 Hostel Admission Process"
+          payload: "/admission_process"
+
+  utter_placement:
+    - text: "**PDEU Placement Statistics 2023-24**\n\n**Overall Performance:**\n• Placement Rate: 87%\n• Average Package: ₹7.2 LPA\n• Highest Package: ₹45 LPA\n• Total Companies: 150+\n\n**Top Recruiters:**\n• IT: TCS, Infosys, Wipro, Accenture\n• Core: Reliance, ONGC, IOCL, L&T\n• Product: Microsoft, Amazon, Google, Adobe\n• Consulting: Deloitte, EY, KPMG\n\n**Branch-wise Average:**\n• CSE: ₹8.5 LPA\n• Petroleum: ₹9.2 LPA\n• Mechanical: ₹6.8 LPA\n• Civil: ₹6.2 LPA"
+      buttons:
+        - title: "💰 Package Details by Branch"
+          payload: "/courses"
+        - title: "🏢 Company List"
+          payload: "/placement"
+        - title: "📚 Placement Preparation"
+          payload: "/academic"
+
+  utter_scholarship:
+    - text: "**PDEU Scholarship Programs**\n\n**Merit Scholarships:**\n• JEE Rank 1-1000: 100% tuition waiver\n• JEE Rank 1001-5000: 50% tuition waiver\n• JEE Rank 5001-10000: 25% tuition waiver\n\n**Need-based Scholarships:**\n• Family income < ₹2 lakh: Up to 75% waiver\n• Family income ₹2-5 lakh: Up to 50% waiver\n\n**Special Scholarships:**\n• Girl Child: 10% additional discount\n• Sports Excellence: Up to 100% waiver\n• Alumni Ward: 15% discount\n\n**Government Scholarships:**\n• Post-matric scholarship\n• Minority scholarship\n• EBC scholarship"
+
+  utter_contact:
+    - text: "**PDEU Contact Information**\n\n**Admission Office:**\n• Email: admissions@pdeu.ac.in\n• Phone: +91-79-23275060/61\n• WhatsApp: +91-9876543210\n\n**Address:**\n📍 Pandit Deendayal Energy University\nRaisan Village, Gandhinagar - 382007\nGujarat, India\n\n**Office Hours:**\n• Monday-Friday: 9:00 AM - 6:00 PM\n• Saturday: 9:00 AM - 1:00 PM\n• Sunday: Closed\n\n**Online Support:**\n• Live Chat: Available on website\n• Virtual Counseling: Book appointment online"
+
+  utter_courses:
+    - text: "**PDEU Course Offerings**\n\n**B.Tech Programs (4 years):**\n• Computer Science & Engineering\n• Petroleum Engineering\n• Mechanical Engineering\n• Civil Engineering\n• Electrical Engineering\n• Chemical Engineering\n• Electronics & Communication\n\n**M.Tech Programs (2 years):**\n• Petroleum Engineering\n• Computer Engineering\n• Mechanical Engineering\n\n**MBA Programs:**\n• MBA (General)\n• MBA (Energy Management)\n\n**Intake Capacity:**\n• B.Tech: 1,200 seats\n• M.Tech: 180 seats\n• MBA: 120 seats"
+      buttons:
+        - title: "🎓 Eligibility Criteria"
+          payload: "/eligibility"
+        - title: "💰 Fee Structure"
+          payload: "/fees"
+        - title: "💼 Placement Statistics"
+          payload: "/placement"
+
+  utter_ranking:
+    - text: "PDEU is NAAC A++ accredited and ranks among India’s top private universities."
+
+  utter_facilities:
+    - text: "**PDEU Campus Facilities**\n\n**Academic Facilities:**\n• Modern classrooms with AC & projectors\n• Well-equipped laboratories\n• Central library with 50,000+ books\n• Digital library with e-resources\n\n**Sports & Recreation:**\n• Cricket ground & football field\n• Basketball & volleyball courts\n• Indoor games: Table tennis, chess\n• Gymnasium with modern equipment\n\n**Other Facilities:**\n• Medical center with qualified doctor\n• ATM & banking facilities\n• Cafeteria & food courts\n• Transportation facility\n• Wi-Fi enabled campus"
+
+  utter_academic:
+    - text: "**PDEU Academic Information**\n\n**Academic Calendar:**\n• Semester System (2 semesters/year)\n• Each semester: 18-20 weeks\n• Mid-term & End-term exams\n\n**Grading System:**\n• 10-point CGPA system\n• Minimum 5.0 CGPA to pass\n• Grade improvement allowed\n\n**Faculty:**\n• PhD qualified faculty: 85%\n• Industry experience: 60%\n• Student-faculty ratio: 15:1\n\n**Research Opportunities:**\n• Undergraduate research projects\n• Industry collaborations\n• International exchange programs"
+
+  utter_safety:
+    - text: "**PDEU Safety & Security**\n\n**Campus Security:**\n• 24x7 security personnel\n• CCTV surveillance\n• Biometric access control\n• Vehicle checking at gates\n\n**Hostel Security:**\n• Separate hostels for boys & girls\n• Warden supervision\n• Visitor registration mandatory\n• Night security rounds\n\n**Emergency Services:**\n• Medical emergency: 24x7 available\n• Fire safety equipment\n• Emergency contact numbers\n• Ambulance facility\n\n**Safety Measures:**\n• Well-lit campus\n• Emergency call boxes\n• Safety awareness programs"
+
+  utter_payment_plans:
+    - text: "**PDEU Payment Options & Plans**\n\n**Payment Methods:**\n• Online Payment: Net banking, UPI, Cards\n• Bank Transfer: NEFT/RTGS\n• Demand Draft: Payable at Gandhinagar\n• Cash Payment: At campus (up to ₹2 lakh)\n\n**Payment Schedules:**\n• **Semester Plan**: Pay every 6 months\n• **Annual Plan**: Pay yearly (5% discount)\n• **Installment Plan**: 3-4 installments per year\n\n**EMI Options:**\n• Education loans from partner banks\n• 0% interest for first 6 months\n• Flexible tenure: 3-7 years\n• Minimal documentation required\n\n**Late Payment:**\n• Grace period: 15 days\n• Late fee: ₹5,000 after grace period\n• Academic hold after 30 days"
+      buttons:
+        - title: "🏦 Bank Partners"
+          payload: "/contact"
+        - title: "💰 Fee Calculator"
+          payload: "/fees"
+        - title: "🎓 Scholarship Options"
+          payload: "/scholarship"
+
+  utter_clubs:
+    - text: "**PDEU Student Clubs & Societies**\n\n**Technical Clubs:**\n• Robotics Club\n• Coding Club\n• Innovation Lab\n• IEEE Student Branch\n\n**Cultural Clubs:**\n• Dance Society\n• Music Club\n• Drama Club\n• Photography Club\n\n**Sports Clubs:**\n• Cricket Team\n• Football Club\n• Basketball Team\n• Badminton Club\n\n**Special Interest:**\n• Entrepreneurship Cell\n• Literary Society\n• Environmental Club\n• Social Service Club"
+
+  utter_wellness:
+    - text: "**PDEU Health & Wellness**\n\n**Medical Facilities:**\n• On-campus medical center\n• Qualified doctor available\n• First aid facilities\n• Ambulance service\n\n**Mental Health:**\n• Counseling services\n• Stress management programs\n• Peer support groups\n• Mental health awareness\n\n**Fitness Facilities:**\n• Modern gymnasium\n• Yoga classes\n• Sports facilities\n• Fitness programs\n\n**Health Programs:**\n• Regular health checkups\n• Health awareness campaigns\n• Nutrition guidance\n• Wellness workshops"
+
+actions:
+  - action_pdeu_faq
+  - action_contextual_response
+  - action_followup_suggestions
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

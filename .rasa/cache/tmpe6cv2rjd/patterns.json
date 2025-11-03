@@ -1,0 +1,14 @@
+[
+  {
+    "name": "university_names",
+    "pattern": "(\\bPDEU\\b|\\bPandit\\ Deendayal\\ Energy\\ University\\b|\\bpdeu\\b|\\bpdu\\b|\\bpde\\b)"
+  },
+  {
+    "name": "course_names",
+    "pattern": "(\\bB\\.Tech\\b|\\bBachelor\\ of\\ Technology\\b|\\bEngineering\\b|\\bMBA\\b|\\bMaster\\ of\\ Business\\ Administration\\b|\\bMCA\\b|\\bMaster\\ of\\ Computer\\ Applications\\b|\\bM\\.Tech\\b|\\bMaster\\ of\\ Technology\\b)"
+  },
+  {
+    "name": "branches",
+    "pattern": "(\\bComputer\\ Science\\b|\\bInformation\\ Technology\\b|\\bElectronics\\b|\\bMechanical\\b|\\bCivil\\b|\\bChemical\\b|\\bPetroleum\\b|\\bElectrical\\b)"
+  }
+]

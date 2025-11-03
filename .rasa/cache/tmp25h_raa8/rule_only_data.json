@@ -1,0 +1,6 @@
+{
+  "rule_only_slots": [
+    "last_intent"
+  ],
+  "rule_only_loops": []
+}

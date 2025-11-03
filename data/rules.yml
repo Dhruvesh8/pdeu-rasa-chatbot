@@ -1,0 +1,122 @@
+version: "3.1"
+
+rules:
+- rule: Say initial greet
+  steps:
+    - intent: initial_greet
+    - action: utter_initial_greet
+
+- rule: Say greet
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Enhanced Fallback
+  steps:
+    - intent: nlu_fallback
+    - action: utter_default
+    - action: action_pdeu_faq
+
+- rule: FAQ lookup
+  steps:
+    - intent: pdeu_faq
+    - action: action_pdeu_faq
+
+
+
+- rule: Ask more info
+  steps:
+    - intent: ask_more_info
+    - action: utter_ask_more_info
+
+- rule: General inquiries
+  steps:
+    - intent: general
+    - action: action_pdeu_faq
+
+- rule: Clubs inquiries
+  steps:
+    - intent: clubs
+    - action: utter_clubs
+
+- rule: Wellness inquiries
+  steps:
+    - intent: wellness
+    - action: utter_wellness
+
+- rule: Hostel inquiries
+  steps:
+    - intent: hostel
+    - action: utter_hostel
+
+- rule: Payment plans inquiries
+  steps:
+    - intent: payment_plans
+    - action: utter_payment_plans
+
+- rule: Goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Admission process inquiries
+  steps:
+    - intent: admission_process
+    - action: utter_admission_process
+
+- rule: Eligibility inquiries
+  steps:
+    - intent: eligibility
+    - action: utter_eligibility
+
+- rule: Fees inquiries
+  steps:
+    - intent: fees
+    - action: utter_fees
+
+- rule: Placement inquiries
+  steps:
+    - intent: placement
+    - action: utter_placement
+
+- rule: Scholarship inquiries
+  steps:
+    - intent: scholarship
+    - action: utter_scholarship
+
+- rule: Contact inquiries
+  steps:
+    - intent: contact
+    - action: utter_contact
+
+- rule: Courses inquiries
+  steps:
+    - intent: courses
+    - action: utter_courses
+
+- rule: Ranking inquiries
+  steps:
+    - intent: ranking
+    - action: utter_ranking
+
+- rule: Facilities inquiries direct
+  steps:
+    - intent: facilities
+    - action: utter_facilities
+
+- rule: Academic inquiries direct
+  steps:
+    - intent: academic
+    - action: utter_academic
+
+- rule: Safety inquiries direct
+  steps:
+    - intent: safety
+    - action: utter_safety
+
+- rule: Contextual response after intent
+  condition:
+    - slot_was_set:
+      - last_intent: null
+  steps:
+    - action: action_contextual_response

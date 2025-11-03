@@ -1,0 +1,600 @@
+version: "3.1"
+
+nlu:
+- intent: initial_greet
+  examples: |
+    - hiiii
+    - hello there
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good afternoon
+    - namaste
+    - hii
+    - helo
+    - hai
+    - hy
+    - gud morning
+    - gd morning
+
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - goodbye
+    - thanks
+    - thank you
+    - thnks
+    - by
+    - see ya
+    - cya
+    - take care
+
+- intent: admission_process
+  examples: |
+    - how can I apply for admission
+    - admission process for pdeu
+    - how do I apply for PDEU admission
+    - what is the admission process
+    - how to get admission
+    - admission procedure
+    - how can I get into pdeu
+    - admision process
+    - addmission process
+    - hw to apply
+    - wat is admission process
+    - tell me about admission
+    - admission details
+    - how to apply online
+    - application process
+    - when does admission start
+    - admission dates
+    - admission timeline
+    - how to fill application
+    - application form
+    - online application
+    - admission requirements
+    - admission criteria
+    - documents required for admission
+    - admission documents
+    - entrance exam for admission
+    - admission test
+    - merit list
+    - counseling process
+    - seat allotment
+    - admission confirmation
+
+- intent: eligibility
+  examples: |
+    - what is eligibility
+    - who can apply
+    - eligibility criteria
+    - eligibilty criteria
+    - eligiblity criteria
+    - minimum marks required
+    - percentage required
+    - 12th marks requirement
+    - JEE score requirement
+    - entrance exam requirement
+    - qualification needed
+    - academic requirements
+    - can I get admission without JEE
+    - admission without entrance
+    - management quota
+    - direct admission
+    - eligibility for btech
+    - eligibility for engineering
+    - PCM requirement
+    - physics chemistry maths
+    - science stream eligibility
+    - commerce stream eligibility
+    - arts stream eligibility
+    - reserved category eligibility
+    - general category eligibility
+    - age limit for admission
+    - nationality requirement
+
+- intent: fees
+  examples: |
+    - what is the fee structure
+    - tuition fees
+    - fee details
+    - how much fees
+    - total fees
+    - semester fees
+    - annual fees
+    - fee structure for btech
+    - engineering fees
+    - MBA fees
+    - course fees
+    - program fees
+    - fess structure
+    - fee amount
+    - cost of education
+    - education cost
+    - tuition cost
+    - academic fees
+    - additional charges
+    - miscellaneous fees
+    - lab fees
+    - library fees
+    - exam fees
+    - late fees
+
+- intent: payment_plans
+  examples: |
+    - payment options
+    - payment plans
+    - payment methods
+    - how to pay fees
+    - fee payment process
+    - online fee payment
+    - installment payment
+    - EMI facility
+    - payment schedule
+    - fee payment modes
+    - bank transfer
+    - net banking
+    - UPI payment
+    - card payment
+    - demand draft
+    - cash payment
+    - EMI options
+    - payment deadline
+    - late payment
+    - payment terms
+    - fee receipt
+    - fee refund
+    - payment gateway
+    - online payment
+    - semester payment
+    - annual payment
+    - quarterly payment
+
+- intent: hostel
+  examples: |
+    - is hostel available
+    - hostel details
+    - hostel facilities
+    - hostel fees
+    - hostel accommodation
+    - residential facility
+    - on campus accommodation
+    - hostl details
+    - hostle information
+    - room facilities
+    - mess facility
+    - hostel rooms
+    - single room
+    - shared room
+    - AC rooms
+    - non AC rooms
+    - hostel security
+    - hostel timing
+    - hostel rules
+    - hostel discipline
+    - boys hostel
+    - girls hostel
+    - separate hostels
+    - hostel allocation
+    - room allotment
+    - hostel booking
+    - hostel reservation
+    - hostel amenities
+    - wifi in hostel
+    - laundry facility
+    - common room
+    - study room
+    - recreational facilities
+
+- intent: placement
+  examples: |
+    - how are placements
+    - average package
+    - placement record
+    - placement statistics
+    - job opportunities
+    - campus placements
+    - placement companies
+    - recruiting companies
+    - placement process
+    - placment details
+    - placements record
+    - salary package
+    - highest package
+    - lowest package
+    - placement percentage
+    - placement rate
+    - job placement
+    - career opportunities
+    - employment rate
+    - industry tie ups
+    - corporate relations
+    - internship opportunities
+    - summer internship
+    - industrial training
+    - placement preparation
+    - placement training
+    - aptitude training
+    - interview preparation
+    - soft skills training
+    - placement cell
+    - career guidance
+    - job assistance
+
+- intent: scholarship
+  examples: |
+    - does pdeu offer scholarships
+    - merit scholarship
+    - scholarship details
+    - financial aid
+    - scholership available
+    - scholarshp information
+    - need based scholarship
+    - merit based scholarship
+    - sports scholarship
+    - minority scholarship
+    - government scholarship
+    - scholarship criteria
+    - scholarship eligibility
+    - scholarship application
+    - scholarship process
+    - scholarship amount
+    - scholarship percentage
+    - full scholarship
+    - partial scholarship
+    - scholarship for poor students
+    - scholarship for toppers
+    - scholarship for girls
+    - scholarship for SC ST
+    - scholarship for OBC
+    - education loan
+    - loan facility
+    - bank loan
+    - financial assistance
+
+- intent: contact
+  examples: |
+    - how can I contact pdeu
+    - email or phone
+    - contact details
+    - contact information
+    - phone number
+    - email address
+    - office address
+    - admission office contact
+    - helpline number
+    - customer care
+    - support contact
+    - contct details
+    - cantact information
+    - contat number
+    - how to reach pdeu
+    - location of pdeu
+    - pdeu address
+    - campus address
+    - university address
+    - admission helpline
+    - enquiry number
+    - toll free number
+    - whatsapp number
+    - social media
+    - website
+    - official website
+
+- intent: courses
+  examples: |
+    - what courses are offered
+    - available programs
+    - course details
+    - program details
+    - btech courses
+    - engineering courses
+    - MBA program
+    - management courses
+    - MCA program
+    - computer courses
+    - science programs
+    - cours offered
+    - corse available
+    - degree programs
+    - undergraduate courses
+    - postgraduate courses
+    - diploma courses
+    - certificate courses
+    - specialization available
+    - branches offered
+    - streams available
+    - departments
+    - faculties
+    - schools
+    - colleges
+    - course duration
+    - program duration
+    - course structure
+
+- intent: ranking
+  examples: |
+    - what is the ranking of pdeu
+    - reputation of university
+    - university ranking
+    - college ranking
+    - NIRF ranking
+    - QS ranking
+    - accreditation
+    - NAAC rating
+    - NBA accreditation
+    - recognition
+    - approval
+    - university status
+    - deemed university
+    - private university
+    - government recognition
+    - UGC recognition
+    - AICTE approval
+    - quality rating
+    - excellence rating
+    - reputation
+    - brand value
+    - industry recognition
+    - employer rating
+    - graduate employability
+    - research ranking
+    - innovation ranking
+
+- intent: pdeu_faq
+  examples: |
+    - How do I apply for PDEU admission?
+    - What documents are needed?
+    - Tell me about hostel fees
+    - How much is the tuition fee?
+    - What scholarships are available?
+    - library facilities
+    - sports facilities
+    - transportation
+    - canteen facilities
+    - wifi facility
+    - computer labs
+    - research facilities
+    - innovation labs
+    - startup support
+    - entrepreneurship
+    - alumni network
+    - industry connections
+    - international collaborations
+    - exchange programs
+    - cultural activities
+    - technical events
+    - clubs and societies
+    - student life
+    - campus life
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - correct
+    - right
+    - ok
+    - okay
+    - sure
+    - absolutely
+    - definitely
+    - of course
+    - certainly
+    - indeed
+    - exactly
+    - true
+    - agreed
+    - confirm
+    - confirmed
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not really
+    - wrong
+    - incorrect
+    - nah
+    - never
+    - not at all
+    - disagree
+    - false
+    - not true
+    - not correct
+    - not right
+
+- intent: ask_more_info
+  examples: |
+    - tell me more
+    - more details
+    - more information
+    - elaborate
+    - explain further
+    - can you explain
+    - what else
+    - anything else
+    - more about this
+    - detailed information
+    - complete details
+    - full information
+    - comprehensive details
+
+- intent: general
+  examples: |
+    - what is pdeu
+    - about pdeu
+    - university information
+    - campus size
+    - student strength
+    - faculty details
+    - infrastructure
+    - facilities
+    - location
+    - history
+    - establishment
+    - founder
+    - vision mission
+    - achievements
+    - awards
+    - recognitions
+
+- intent: facilities
+  examples: |
+    - what facilities are available
+    - campus facilities
+    - infrastructure details
+    - amenities
+    - services
+    - resources
+    - equipment
+    - laboratories
+    - workshops
+    - studios
+    - auditoriums
+    - seminar halls
+    - conference rooms
+    - meeting rooms
+
+- intent: academic
+  examples: |
+    - academic information
+    - examination system
+    - grading system
+    - semester system
+    - teaching methodology
+    - faculty qualification
+    - research opportunities
+    - projects
+    - assignments
+    - attendance
+    - academic calendar
+
+- intent: clubs
+  examples: |
+    - student clubs
+    - societies
+    - technical clubs
+    - cultural clubs
+    - sports clubs
+    - hobby clubs
+    - special interest groups
+    - student organizations
+    - extracurricular activities
+    - co curricular activities
+
+- intent: safety
+  examples: |
+    - campus safety
+    - security measures
+    - safety for girls
+    - anti ragging
+    - emergency services
+    - medical emergency
+    - fire safety
+    - disaster management
+    - security guards
+    - CCTV surveillance
+
+- intent: wellness
+  examples: |
+    - health facilities
+    - medical facilities
+    - medical center
+    - hospital
+    - doctor
+    - nurse
+    - pharmacy
+    - ambulance
+    - health checkup
+    - fitness center
+    - gymnasium
+    - yoga
+    - meditation
+    - counseling
+    - mental health
+    - healthcare services
+    - medical services
+    - health center
+    - clinic
+    - first aid
+
+- lookup: university_names
+  examples: |
+    - PDEU
+    - Pandit Deendayal Energy University
+    - pdeu
+    - pdu
+    - pde
+
+- lookup: course_names
+  examples: |
+    - B.Tech
+    - Bachelor of Technology
+    - Engineering
+    - MBA
+    - Master of Business Administration
+    - MCA
+    - Master of Computer Applications
+    - M.Tech
+    - Master of Technology
+
+- lookup: branches
+  examples: |
+    - Computer Science
+    - Information Technology
+    - Electronics
+    - Mechanical
+    - Civil
+    - Chemical
+    - Petroleum
+    - Electrical
+
+- synonym: PDEU
+  examples: |
+    - pdeu
+    - pdu
+    - pde
+    - Pandit Deendayal Energy University
+
+- synonym: admission
+  examples: |
+    - admissions
+    - admision
+    - addmission
+    - enrollment
+
+- synonym: fees
+  examples: |
+    - fee
+    - fess
+    - cost
+    - charges
+    - tuition
+
+- synonym: hostel
+  examples: |
+    - hostl
+    - hostle
+    - accommodation
+    - residence
+
+- synonym: placement
+  examples: |
+    - placment
+    - placements
+    - job
+    - employment
+
+- synonym: scholarship
+  examples: |
+    - scholership
+    - scholarshp
+    - financial aid
+    - fee waiver

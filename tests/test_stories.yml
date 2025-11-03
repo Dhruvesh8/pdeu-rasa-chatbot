@@ -1,0 +1,113 @@
+version: "3.1"
+
+stories:
+- story: test spell correction - admission
+  steps:
+  - user: |
+      admision process for pdeu
+    intent: admission_process
+  - action: utter_admission_process
+
+- story: test spell correction - fees
+  steps:
+  - user: |
+      wat is the fess structure
+    intent: fees
+  - action: utter_fees
+
+- story: test spell correction - hostel
+  steps:
+  - user: |
+      hostl facilities at pdu
+    intent: hostel
+  - action: utter_hostel
+
+- story: test contextual conversation
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      tell me about admission
+    intent: admission_process
+  - action: utter_admission_process
+  - action: action_followup_suggestions
+  - user: |
+      what about eligibility
+    intent: eligibility
+  - action: utter_eligibility
+
+- story: test FAQ with typos
+  steps:
+  - user: |
+      hw much is scholership available
+    intent: scholarship
+  - action: utter_scholarship
+
+- story: test multi-intent conversation
+  steps:
+  - user: |
+      hi there
+    intent: greet
+  - action: utter_greet
+  - user: |
+      placment details
+    intent: placement
+  - action: utter_placement
+  - action: action_followup_suggestions
+  - user: |
+      yes tell me more
+    intent: ask_more_info
+  - action: utter_ask_more_info
+
+- story: test fallback handling
+  steps:
+  - user: |
+      random gibberish text
+    intent: nlu_fallback
+  - action: utter_default
+  - action: action_pdeu_faq
+
+- story: test facilities inquiry
+  steps:
+  - user: |
+      what facilities are available
+    intent: facilities
+  - action: action_pdeu_faq
+
+- story: test safety inquiry
+  steps:
+  - user: |
+      is campus safe for girls
+    intent: safety
+  - action: action_pdeu_faq
+
+- story: test academic inquiry
+  steps:
+  - user: |
+      tell me about examination system
+    intent: academic
+  - action: action_pdeu_faq
+
+- story: test wellness inquiry
+  steps:
+  - user: |
+      health facilities on campus
+    intent: wellness
+  - action: action_pdeu_faq
+
+- story: test clubs inquiry
+  steps:
+  - user: |
+      what clubs are available
+    intent: clubs
+  - action: action_pdeu_faq
+
+- story: test goodbye with context
+  steps:
+  - user: |
+      thanks for the information
+    intent: goodbye
+  - action: utter_goodbye
+  - action: action_followup_suggestions
